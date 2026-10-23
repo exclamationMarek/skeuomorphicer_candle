@@ -2515,6 +2515,16 @@
 	)
 	(wire
 		(pts
+			(xy 93.98 152.4) (xy 91.44 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "046b2fa8-80da-44d9-a603-47d5ddcb0ffb")
+	)
+	(wire
+		(pts
 			(xy 102.87 157.48) (xy 100.33 157.48)
 		)
 		(stroke
@@ -2825,7 +2835,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 152.4) (xy 102.87 152.4)
+			(xy 101.6 152.4) (xy 102.87 152.4)
 		)
 		(stroke
 			(width 0)
@@ -2935,7 +2945,7 @@
 	)
 	(symbol
 		(lib_id "Device:L")
-		(at 95.25 152.4 90)
+		(at 97.79 152.4 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2946,7 +2956,7 @@
 		(fields_autoplaced yes)
 		(uuid "07d1eb4e-9421-4f3d-9b4b-186485192b48")
 		(property "Reference" "L1"
-			(at 95.25 147.32 90)
+			(at 97.79 147.32 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2956,7 +2966,7 @@
 			)
 		)
 		(property "Value" "2.2uH"
-			(at 95.25 149.86 90)
+			(at 97.79 149.86 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2966,7 +2976,7 @@
 			)
 		)
 		(property "Footprint" "Inductor_SMD:L_1008_2520Metric_Pad1.43x2.20mm_HandSolder"
-			(at 95.25 152.4 0)
+			(at 97.79 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2977,7 +2987,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C964122.pdf"
-			(at 95.25 152.4 0)
+			(at 97.79 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2988,7 +2998,7 @@
 			)
 		)
 		(property "Description" "Inductor"
-			(at 95.25 152.4 0)
+			(at 97.79 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2999,7 +3009,7 @@
 			)
 		)
 		(property "MPN" "WIP252012P-2R2ML"
-			(at 95.25 152.4 90)
+			(at 97.79 152.4 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3291,7 +3301,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "4.7uF"
 			(at 139.7 161.29 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3372,7 +3382,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "4.7uF"
 			(at 83.82 160.02 0)
 			(show_name no)
 			(do_not_autoplace no)

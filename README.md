@@ -1,7 +1,8 @@
 # Skeuomorphicer Candle
 A more skeuomorphic LED candle, one that you turn on with a flame, and off with a blow, like a real candle!
 Super simple design with no microcontrollers, op-amps nor any other integrated circuits. Just one transistor, one thermistor and a couple of passives.
-As seen on youtube, here:  (well, not just yet)
+
+As seen on youtube, here: (well, not just yet)
 
 # How it works
 ![](images/simplified_schematic.jpg)
@@ -13,7 +14,7 @@ As seen on youtube, here:  (well, not just yet)
 * Once you blow on the PCB, the heat is removed, breaking the cycle and turning off the light
 * Yes, the schematic looks like a candle
 
-![](wick_design.jpg)
+![](images/wick_design.jpg)
 * The current limiting (and heat producing) resistor is doubled, to surround the NTC on both sides
 * They also share an electrical connection with the NTC - the VCC node (on top)
 * That VCC copper connection is used to transfer heat from the resistors to the NTC
@@ -26,12 +27,13 @@ Note that this is the simplified schematic. In real application, the varying vol
 
 
 # PCB design available in 4 variants:
-## Minimal
+## [Minimal](Skeuomorphic_candle_minimal/README.md)
 * Designed for 1.5V mini light bulb and 2xAA batteries
-* Does not work with LEDs!
 * Very low component count
+* Does not work with LEDs!
 * No ICs. Just 1 NMOS, 1 NTC and some resistors
 * If you want the simplest skeuomorphicer candle, use this PCB.
+* Alternatively, use with external 3.3V regulated supply
 
 ## Basic - recommended
 * Works great with a mini light bulb and OK-ish with LEDs
@@ -58,5 +60,7 @@ Detailed configuration and assembly instructions are in each PCB variant folder.
 
 # License
 This project is published under the [Creative Commons Attribution-NonCommercial 4.0 License](https://creativecommons.org/licenses/by-nc/4.0/deed.en)
+
 Full text in license.txt
+
 A commertial use license may be provided upon request
