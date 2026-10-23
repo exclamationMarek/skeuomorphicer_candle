@@ -27,7 +27,7 @@ Note that this is the simplified schematic. In real application, the varying vol
 
 
 # PCB design available in 4 variants:
-## [Minimal](Skeuomorphic_candle_minimal/README.md)
+## [Minimal](Skeuomorphic_candle_minimal)
 * Designed for 1.5V mini light bulb and 2xAA batteries
 * Very low component count
 * Does not work with LEDs!
@@ -35,13 +35,13 @@ Note that this is the simplified schematic. In real application, the varying vol
 * If you want the simplest skeuomorphicer candle, use this PCB.
 * Alternatively, use with external 3.3V regulated supply
 
-## Basic - recommended
+## [Basic - recommended](Skeuomorphic_candle_basic)
 * Works great with a mini light bulb and OK-ish with LEDs
 * Supports various batteries
 * Low component count, but requires power regulator IC
 * If you want to make a resonably well working skeuomorphicer candle, use this PCB
 
-## Custom
+## [Custom](Skeuomorphic_candle_custom)
 * PCB with extra footprints for implementation flexibility
 * Can be configured as either the "Minimal" or "Basic" variant
 * Can be configured as bulb + LEDs
@@ -49,7 +49,7 @@ Note that this is the simplified schematic. In real application, the varying vol
 * Has test points
 * If you want to experiment with the design, use this PCB
 
-## Digital
+## [Digital](Skeuomorphic_candle_digital)
 * EWWWW digital microcontroller!
 * 32bits?! For like one 'if' statement?!
 * 2KB of RAM?! You can fly to the bloody moon on 2KB of RAM!
