@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "Skeuomorphicer_candle") (type "KiCad") (uri "../Skeuomorphicer_candle.pretty") (options "") (descr ""))
+)
