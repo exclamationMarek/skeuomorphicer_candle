@@ -2,7 +2,7 @@
 A more skeuomorphic LED candle, one that you turn on with a flame, and off with a blow, like a real candle!
 Super simple design with no microcontrollers, op-amps nor any other integrated circuits. Just one transistor, one thermistor and a couple of passives.
 
-As seen on youtube, here: (well, not just yet)
+As seen on youtube, here: [https://www.youtube.com/watch?v=r8O8MNvkZiY](https://www.youtube.com/watch?v=r8O8MNvkZiY)
 
 # How it works
 ![](images/simplified_schematic.jpg)
