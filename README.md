@@ -1,4 +1,5 @@
 # Skeuomorphicer Candle
+<img width="1280" height="720" alt="thumbnail_candle" src="https://github.com/user-attachments/assets/867d78c9-5fc0-4166-b5c2-fb08c07152c8" />
 A more skeuomorphic LED candle, one that you turn on with a flame, and off with a blow, like a real candle!
 Super simple design with no microcontrollers, op-amps nor any other integrated circuits. Just one transistor, one thermistor and a couple of passives.
 
@@ -19,11 +20,11 @@ As seen on youtube, here: [https://www.youtube.com/watch?v=r8O8MNvkZiY](https://
 * They also share an electrical connection with the NTC - the VCC node (on top)
 * That VCC copper connection is used to transfer heat from the resistors to the NTC
 * But also, is wide and exposed to being blown at
-* This is a finicky design challenge that required iterative tine tuning
+* This is a finicky design challenge that required iterative fine tuning
 * The current implementation works best with about 0.1W (total) dissipated on the heating resistors, which keeps the NTC at about 55°C
 * Testd on a 1.0mm 2-layer PCB with 35um copper foil. Tested with black solder mask (it might make a difference?)
 
-Note that this is the simplified schematic. In real application, the varying voltage of batteries causes the circuit to be unreliable. With a full battery, the NTC runs too hot, making the candle difficult to blow out, and with a low battery it runs too cool, turning itself off unprompted. To fix this, the recommended design adds a voltage regulator (boost converter) to keep VCC stable and the candle reliable.
+Note that this is the simplified schematic that omits the power supply. In real application, the varying voltage of batteries causes the circuit to be unreliable. With a full battery, the NTC runs too hot, making the candle difficult to blow out, and with a low battery it runs too cool, turning itself off unprompted. To fix this, the recommended design adds a voltage regulator (boost converter) to keep VCC stable and the candle reliable.
 
 
 # PCB design available in 4 variants:
