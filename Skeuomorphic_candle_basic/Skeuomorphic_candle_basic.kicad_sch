@@ -3715,7 +3715,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "33R"
+		(property "Value" "27R"
 			(at 72.39 55.8799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4439,7 +4439,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "6.8k"
+		(property "Value" "5.6k"
 			(at 48.26 106.6799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4846,7 +4846,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "33R"
+		(property "Value" "27R"
 			(at 95.25 55.8799 0)
 			(show_name no)
 			(do_not_autoplace no)

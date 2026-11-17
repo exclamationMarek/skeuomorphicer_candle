@@ -1558,6 +1558,28 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Battery connector\n2x AA or 2x AAA\nIdeally NiMH rechargable\nfor example IKEA LADDA 1900mAh"
+		(exclude_from_sim no)
+		(at 69.596 151.638 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a3a33980-2124-4944-8d14-9f83d7178e1a")
+	)
+	(text "<-- Incandescent miniature light bulb\n    3mm, 1.5V. Should draw about 130mA at 1.5V"
+		(exclude_from_sim no)
+		(at 90.424 70.612 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b9408d91-423a-4676-b697-986cd345dbc0")
+	)
 	(text " HEAT\n <--->\nTRANSFER"
 		(exclude_from_sim no)
 		(at 61.722 54.61 0)
@@ -2191,7 +2213,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "18R"
+		(property "Value" "22R"
 			(at 71.12 55.8799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2543,7 +2565,7 @@
 				)
 			)
 		)
-		(property "Description" "Light emitting diode"
+		(property "Description" "Miniature light bulb"
 			(at 77.47 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -2681,7 +2703,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "6.8k"
+		(property "Value" "27k"
 			(at 50.8 90.1699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2839,7 +2861,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "18R"
+		(property "Value" "22R"
 			(at 80.01 55.8799 0)
 			(show_name no)
 			(do_not_autoplace no)

@@ -422,7 +422,7 @@
 				)
 			)
 		)
-		(property "Value" "33R"
+		(property "Value" "27R"
 			(at 0 1.3 90)
 			(layer "F.Fab")
 			(uuid "a1c45d1a-3e82-4051-af4b-011be7a12517")
@@ -630,7 +630,7 @@
 				)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "4.7uF"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "f44017e7-be87-4b06-88e4-3705c9df9027")
@@ -828,6 +828,7 @@
 		(property "Reference" "Q1"
 			(at 0 -2.4 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "66294962-6510-4b72-bf4a-ce8bb75cfe2e")
 			(effects
 				(font
@@ -836,7 +837,7 @@
 				)
 			)
 		)
-		(property "Value" "HL2302V"
+		(property "Value" "SI2302"
 			(at 0 2.4 0)
 			(layer "F.Fab")
 			(uuid "51e06d49-779e-40e3-8e6f-15e1e5ab2d50")
@@ -847,7 +848,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C4748714.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1219,7 +1220,7 @@
 				)
 			)
 		)
-		(property "Value" "33R"
+		(property "Value" "27R"
 			(at 0 -1.3 90)
 			(layer "F.Fab")
 			(uuid "139a70b2-112e-49ce-83a5-b9c3c2a4bb5e")
@@ -1636,7 +1637,7 @@
 				)
 			)
 		)
-		(property "Value" "6.8k"
+		(property "Value" "5.6k"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "8eef0b0f-fbd9-42b9-b432-ab7f4634018e")
@@ -2065,7 +2066,7 @@
 				)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "4.7uF"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "dff38b3b-c352-4a1e-8cf8-80d8e522b3fc")

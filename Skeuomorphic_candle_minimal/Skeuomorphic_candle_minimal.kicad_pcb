@@ -144,7 +144,7 @@
 				)
 			)
 		)
-		(property "Value" "18R"
+		(property "Value" "11R"
 			(at 0 1.3 90)
 			(layer "F.Fab")
 			(uuid "e571c21d-52ad-4a93-b929-23743233640e")
@@ -363,7 +363,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C4748714.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -374,7 +374,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -401,6 +401,12 @@
 		(path "/0aa45ec1-491f-4b80-8a44-c82286557f78")
 		(sheetname "/")
 		(sheetfile "Skeuomorphic_candle_minimal.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "3" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -729,7 +735,7 @@
 				)
 			)
 		)
-		(property "Value" "18R"
+		(property "Value" "11R"
 			(at 0 -1.3 90)
 			(layer "F.Fab")
 			(uuid "855cd15a-e165-4622-b90f-04c5dcea0693")
@@ -1146,7 +1152,7 @@
 				)
 			)
 		)
-		(property "Value" "6.8k"
+		(property "Value" "27k"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "82f47653-fb08-41c8-9e96-254075e99453")
